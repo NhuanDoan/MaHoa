@@ -1,1 +1,1 @@
-# MaHoa
+# MaHoa - Team project
