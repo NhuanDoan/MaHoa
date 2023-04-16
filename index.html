@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="function.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Mã hóa dữ liệu</h1>
+    </div>
+    <div class="form" id="head1"></div>
+    <div id="Head" class="form">
+        <div id="Input" class="Content">
+            <form action="" >
+                <label for="in">Nhập chuỗi</label><br>
+                <input type="text" name="in" id="in"><br>
+                <label for="name">Kết quả</label><br>
+                <label for="out"></label>
+                <input type="textbox" name="out" id="out">
+                <br>
+                <label for="key">Chọn key</label><br>
+                <input type="radio" name="key" value="key1" class="key">DHN
+                <input type="radio" name="key" value="key2" class="key">NHD
+                <input type="radio" name="key" value="key3" class="key">HND
+                <br>
+                <label for="select">Chọn hình thức</label><br>
+                <select name="HinhThuc" id="select">
+                    <option value="MaHoa">Mã Hóa</option>
+                    <option value="GiaiMa">Giải Mã</option>
+                </select>
+                <br>
+                <button type="submit"  onclick="main()" id="submit">Xác nhận</button>
+                <input type="reset" value="Xóa" id="reset">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
